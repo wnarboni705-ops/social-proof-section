@@ -1,1 +1,1 @@
-
+Esse projeto retrata uma pagina com alnguns cards e neles tem alguns comentarios, tem tambem algumas indicações de itens. Tambem foi adicionado responsividade em ambos tamanhos, smartphone, computados e tablet. Foi utilizado html e css, de acordo estou aprendendo, é um projeto bem simples para treinar o front-end, logo mais emplementarei projetos com HTML, CSS e JavaScript.
