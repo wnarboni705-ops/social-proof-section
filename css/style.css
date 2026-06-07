@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body{
+
+    --Dark-Grayish-Magenta: hsl(303, 10%, 53%);
+    --Light-Grayish-Magenta: hsl(300, 24%, 96%);
+    --White: hsl(0, 0%, 100%);
+    --Very-Dark-Magenta: hsl(300, 43%, 22%);
+    --Soft--Pink: hsl(333, 80%, 67%);
+    max-width: 100%;
+    height: 100vh;
+    background-image: url(../images/bg-pattern-top-desktop.svg), url(../images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top left, bottom right;
+    font-family: "League Spartan", sans-serif;
+    overflow: hidden;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container1{
+    flex: 3;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 180px;
+    margin-bottom: 25px;
+}
+
+.container1 div{
+    max-width: 350px;
+    margin-right: 135px;
+}
+
+.container1 h1{
+    font-size: 45px;
+    color: var(--Very-Dark-Magenta);
+    font-weight: bold;
+}
+.container1 p{
+    text-align: left;
+    font-size: 15px;
+    margin-top: 25px;
+    overflow-wrap: break-word;
+    color: var(--Very-Dark-Magenta);
+    font-style: normal;
+    text-align: justify;
+    line-height: 20px;
+    
+  
+    
+}
+
+.lateral-1{
+    position: relative;
+    flex: 3;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 180px;
+    margin-bottom: 25px;
+}
+
+.card{
+    background-color: var(--Light-Grayish-Magenta);
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 10px;
+    max-width: 350px;
+}
+.texto span{
+    margin: 0 10px;
+    padding: 5px;
+    font-size: 14px;
+}
+.texto{
+    color: var(--Very-Dark-Magenta);
+    font-weight: bold;
+}
+
+.texto p{
+    display: inline-block;
+    padding: 10px;
+    font-size: 14px;
+}
+.position1{
+    margin-left: 0px;
+}
+.position2{
+    margin-left: 70px;
+}
+.position3{
+    margin-left: 140px;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+ .box{
+    height: 230px;
+    width: 300px;
+    max-width: 100%;
+    margin-bottom: 15px;
+    margin-right: 25px;
+    background-color: var(--Very-Dark-Magenta);
+    border-radius: 15px;
+
+}
+
+.text{
+    color: var(--Light-Grayish-Magenta);
+    font-size: 15px;
+}
+.user{
+    display: inline-flex;
+    align-items: center;
+    margin: 30px 20px;
+    
+}
+
+.user img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.user h5{
+    margin-left: 5px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+}
+.text p{
+    margin: 0 15px;
+    
+}
+.user a{
+    margin-left: 15px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--Soft--Pink);
+}
+
+.card2{
+    margin-top: 50px;
+}
+.card3{
+    margin-top: 100px;
+}
+
+
+@media (max-width: 1000px) {
+.container1 div {
+    max-width: 350px;
+    margin-right: 0;
+}
+
+.box{
+    height: 280px;
+    width: 230px;
+    max-width: 100%;
+    margin-right: 25px;
+}
+.lateral-1{
+    margin-left: 35px;
+}
+
+.position1, .position2, .position3{
+    margin-left: 0;
+}
+.card3{
+    margin-right: 0;
+}
+
+}
+
+@media (max-width: 740px) {
+body{
+    overflow: scroll;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container1{ 
+    margin-top: 80px;
+    margin-bottom: 25px;
+}
+.container1 h1{
+    text-align: center;
+    min-width: 350px;
+}
+
+.container1 p{
+    margin: 0;
+    margin-top: 20px;
+    text-align: center;
+    min-width: 350px;
+}
+
+.lateral-1{
+    max-width: 100%;
+    margin-top: 80px;
+    margin-top: 0;
+    margin-left: 0;
+    align-items: center;
+    justify-content: center;
+    min-width: 348px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+}
+.box{
+    margin: 0;
+    margin-bottom: 25px;
+    min-width: 300px;
+    height: 200px;
+}
+
+.texto{
+    min-width: 350px;
+}
+
+footer {
+    height: 150px;
+    width: 100%;
+}
+
+}
